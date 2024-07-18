@@ -115,17 +115,11 @@ img{
     text-align: right;
 }
 .menu_btn a {
-    display: block;
-    padding: 35px 20px;
+    background: linear-gradient(214.38deg, #ff8079 -2.24%, #ff1e1e 59.38%);
+    display: inline-block;
+    padding: 34px 100px;
     position: relative;
     border-radius: 10px;
-}
-.menu_btn a .down_icon {
-    position: absolute;
-    bottom: 12px;
-    right: 24px;
-    font-size: 18px;
-    color: #fff;
 }
 .menu_btn a .book {
     top: 9px;
@@ -143,6 +137,14 @@ img{
     font-weight: 600;
     color: #fff;
     text-transform: capitalize;
+    display: inline-block;
+}
+.menu_btn a .down_icon {
+    position: absolute;
+    bottom: 12px;
+    right: 33px;
+    font-size: 18px;
+    color: #fff;
 }
 /* main_header css end  */
 /* header css end */
@@ -627,11 +629,9 @@ section.course_department {
 .single_exclusive_solutions_grid {
     padding: 50px 0px 30px 30px;
 }
-.solution_img{}
 .solution_img img {
     width: 50px;
 }
-.solution_text{}
 .solution_text h1 {
     color: #1f1e1e;
     font-size: 20px;
@@ -664,9 +664,6 @@ section.course_department {
 .map{
     position: relative;
 }
-.map span{
-    
-}
 .virtual_tour {
     position: absolute;
     top: 37px;
@@ -690,7 +687,6 @@ section.course_department {
 .all_course_type {
     padding: 15px 0 60px 0;
 }
-.course_header{}
 .course_header h1 {
     font-size: 30px;
     padding: 20px 0;
@@ -741,7 +737,6 @@ section.course_department {
     width: 95%;
     padding: 10px 0;
 }
-.seminar_date{}
 .seminar {
     height: 100px;
     background: #ffece0;
@@ -824,13 +819,11 @@ section.course_department {
     position: relative;
     z-index: 11111;
 }
-.free_seminars_img img{}
 .shape {
     position: absolute;
     bottom: 16px;
     right: 34px;
 }
-.shape img{}
 
 /* schedule_btn */
 .schedule_btn {
@@ -881,17 +874,12 @@ section.course_department {
     display: flex;
     align-items: center;
 }
-.practical_project_text{
-    
-}
 .practical_project_title {
     font-size: 20px;
     width: 75%;
     color: #1f1e1e;
     padding-bottom: 20px;
 }
-.practical_project_title h1{}
-.practical_project_p{}
 .practical_project_p p {
     width: 79%;
     font-size: 17px;
@@ -905,7 +893,6 @@ section.course_department {
     top: 0;
     left: 501px;
 }
-.shape_6 img{}
 /* specialty section css end  */
 
 /* Organization section css start  */
@@ -916,7 +903,6 @@ section.course_department {
 .making_organization {
     display: flex;
 }
-.making_organization{}
 .organization_text{
     width: 49%;
 }
@@ -924,14 +910,12 @@ section.course_department {
     color: #ff1e1e;
     font-size: 20px;
 }
-.organization_title{}
 .organization_title h1 {
     color: #1f1e1e;
     font-size: 45px;
     font-weight: 600;
     padding: 10px 0 20px 0;
 }
-.organization_p{}
 .organization_p p {
     color: #646464;
     width: 90%;
@@ -946,7 +930,6 @@ section.course_department {
     overflow: hidden;
     margin-top: 40px;
 }
-.organization_img img{}
 /* organization_btn */
 .organization_btn {
     margin-top: 30px;
@@ -967,7 +950,6 @@ section.course_department {
     background: #fff;
     padding: 25px 0 50px 0;
 }
-.our_achievement{}
 .our_achievement ul {
     display: flex;
     justify-content: space-between;
@@ -1069,7 +1051,6 @@ section.course_department {
     margin: 25px;
     padding: 20px;
 }
-.company_logo ul li img{}
 /* connected companys section css end  */
 
 /* footer top section css start  */
@@ -1083,7 +1064,6 @@ section.course_department {
 .footer_heading{
     text-align: center;
 }
-.footer_title{}
 .footer_title h1 {
     font-size: 45px;
     color: #ffffff;
@@ -1102,7 +1082,6 @@ section.course_department {
 .footer_p p {
     width: 30%;
 }
-.footer_btn{}
 .footer_btn a {
     display: inline-block;
     color: #fff;
@@ -1215,7 +1194,6 @@ section.course_department {
 .link_item {
     margin-top: 24px;
 }
-.link_item ul{}
 .link_item ul li {
     line-height: 40px;
 }
@@ -1237,14 +1215,11 @@ section.course_department {
 /* footer top section css end  */
 
 /* Payment section css start  */
-.payment{}
-.payment_content{}
 .payment_title {
     text-align: center;
     color: #2d2d2d;
     padding: 50px 0 25px 0;
 }
-.payment_title h1{}
 .payment_method {
     display: flex;
     justify-content: space-between;
@@ -1262,7 +1237,6 @@ section.course_department {
     font-size: 25px;
     font-weight: 600;
     line-height: 28px;
-    /* padding-top: 10px; */
 }
 .payment_method .bgp:nth-last-child(1) {
     padding-top: 45px;
@@ -1288,7 +1262,6 @@ section.course_department {
 .footer_bottom_logo{
     width: 20%;
 }
-.footer_bottom_logo img{}
 
 /* footer_bottom_text */
 .footer_bottom_text {
@@ -1303,8 +1276,6 @@ section.course_department {
 .footer_bottom_text p a {
     color: #e73327;
 }
-.footer_bottom_text p span{}
-
 /* footer_bottom_social_menu  */
 .footer_bottom_social_menu {
     width: 20%;
